@@ -26,5 +26,14 @@ switch(mn)
     default:
         Console.WriteLine("僅接受1~12");
         break;
-
 }
+
+if(mn ==1 || mn==3 || mn==5 || mn == 7 || mn==8
+    || mn == 10 || mn == 12)
+    Console.WriteLine("大月31天");
+else if(mn==4 || mn==6 || mn==9 || mn==11)
+    Console.WriteLine("小月30天");
+else if(mn==2)
+    Console.WriteLine("二月28或29天");
+else
+    Console.WriteLine("僅接受1~12");

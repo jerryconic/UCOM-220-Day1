@@ -5,7 +5,11 @@ Console.Write("成績:");
 s = Console.ReadLine();
 score = int.Parse(s);
 
+/*
 if(score < 60)
     Console.WriteLine("不及格");
 else
     Console.WriteLine("及格");
+*/
+
+Console.WriteLine(score < 60 ? "不及格" : "及格");
